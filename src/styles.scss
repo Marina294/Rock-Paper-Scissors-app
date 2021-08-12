@@ -45,7 +45,7 @@ $font-family: 'Indie Flower', cursive, sans-serif;
 
   h1 {
     color: $font-color;
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-align: center;
     margin-top: 1.4rem;
     margin-bottom: 2rem;
@@ -62,9 +62,14 @@ $font-family: 'Indie Flower', cursive, sans-serif;
   }
 
 .playerName {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-align: center;
   place-content: center;
+  @media only screen and (max-width: 800px) {
+    & {
+      font-size: 1.5rem;
+    }
+  }
 }
 
   .player {
@@ -155,9 +160,14 @@ $font-family: 'Indie Flower', cursive, sans-serif;
     height: 55px;
     margin: 10px auto;
     color: #FF5689;
-    font-size: 2rem;
+    font-size: 2.4rem;
     text-align: center;
-    font-weight: bold;
+    @media only screen and (max-width: 800px) {
+      & {
+        font-size: 2rem;
+      }
+    }
+    
   }
   
   button {

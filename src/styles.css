@@ -23,7 +23,7 @@ body {
 
 h1 {
   color: #805d38;
-  font-size: 2rem;
+  font-size: 2.3rem;
   text-align: center;
   margin-top: 1.4rem;
   margin-bottom: 2rem;
@@ -41,9 +41,15 @@ h1 {
 }
 
 .playerName {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-align: center;
   place-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .playerName {
+    font-size: 1.5rem;
+  }
 }
 
 .player {
@@ -140,9 +146,14 @@ h1 {
   height: 55px;
   margin: 10px auto;
   color: #FF5689;
-  font-size: 2rem;
+  font-size: 2.4rem;
   text-align: center;
-  font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+  .winner {
+    font-size: 2rem;
+  }
 }
 
 button {

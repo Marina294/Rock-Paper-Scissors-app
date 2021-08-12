@@ -60,7 +60,7 @@ class App extends Component {
           animate={{ y: 0 }}
           transition={{ type: "spring", duration: 0.8 }}
         >
-        Rock Paper Scissors with Cat
+        Rock Paper Meow
         </motion.h1>
         <motion.div
           initial={{ y: 50 }}
@@ -94,7 +94,7 @@ class App extends Component {
             className="weaponBtn"
             onClick={() => this.selectWeapon("scissors")}
           >
-            scissor
+            meow
           </button>
         </motion.div>
         </div>
