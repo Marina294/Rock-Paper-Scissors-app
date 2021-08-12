@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-// import Player from "./App";
 import Player1 from "./player1";
 import Player2 from "./player2";
 import "./styles.css";
@@ -34,15 +33,15 @@ class App extends Component {
     const { playerOne, playerTwo } = this.state;
 
     if (playerOne === playerTwo) {
-      return "Oops it's a Tie!";
+      return "DRAW  :0";
     } else if (
       (playerOne === "rock" && playerTwo === "scissors") ||
       (playerOne === "scissors" && playerTwo === "paper") ||
       (playerOne === "paper" && playerTwo === "rock")
     ) {
-      return "Player One Wins!";
+      return "YOU WIN !  :D";
     } else {
-      return "Player Two Wins!";
+      return "YOU LOSE  :'( ";
     }
   };
   selectWeapon = weapon => {
@@ -54,14 +53,13 @@ class App extends Component {
   render() {
     const { playerOne, playerTwo, winner } = this.state;
     return (
-      <>
-        <h1 style={{ textAlign: "center" }}>Rock Paper Scissors with Cat</h1>
-
+      <div className='wrap'>
+        <h1>Rock Paper Scissors with Cat</h1>
         <div className="players">
           <Player1 weapon={playerOne} />
           <Player2 weapon={playerTwo} />
         </div>
-        <div>
+        <div className="weaponBtns">
           <button
             className="weaponBtn"
             onClick={() => this.selectWeapon("rock")}
@@ -85,7 +83,7 @@ class App extends Component {
         <button type="button" onClick={this.startGame}>
           Start!
         </button>
-      </>
+      </div>
     );
   }
 }

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+// Variables
+$font-color: #805d38;
+$font-family: 'Indie Flower', cursive, sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-app-region: none;
+  -webkit-user-drag: none;
+  }
+
+  // .container {
+  //   height: 30rem;
+  //   /* min-height: 100rem; */
+  //   width: 9%;
+  //   min-width: 20rem;
+  //   background-color: $background-color;
+  //   border-radius: 1rem;
+  //   box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.7);
+  //   @media only screen and (max-width: 768px) {
+  //     & {
+  //       padding: 1rem;
+  //       background-color: $background-color;
+  //       box-shadow: 10px 10px 25px 0px rgba(50, 50, 50, 0);
+  //     }
+  //   }
+  // }
+  
+  body {
+  font-family: $font-family;
+  font-size: 1.8rem;
+  font-weight: 300;
+  background-color: #fafafa;
+  display: -ms-grid;
+  place-content: center;
+  }
+
+  .wrap {
+    overflow: hidden;
+  }
+
+  h1 {
+    color: $font-color;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1.4rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    @media only screen and (max-width: 800px) {
+      & {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        text-align: center;
+      }
+    }
+  }
+
+.playerName {
+  font-size: 1.5rem;
+  text-align: center;
+  place-content: center;
+}
+
+  .player {
+    width: 37%;
+    height: auto;
+    margin: 1rem 3rem;
+    text-align: center;
+    display: inline-block;
+    display: center;
+    @media only screen and (max-width: 775px) {
+      & {
+        width: 3rem;
+        height: auto;
+        margin: 1rem 3rem;
+        text-align: center;
+        display: center;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      & {
+        width: 3rem;
+        height: auto;
+        margin: 1rem 3rem;
+        text-align: center;
+        display: center;
+      }
+    }
+  }
+
+  .player-image {
+    height: 15rem;
+    width: auto;
+    text-align: center;
+    @media only screen and (max-width: 775px) {
+      & {
+        height: 12rem;
+        width: auto;
+        text-align: center;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      & {
+        height: 9rem;
+        width: auto;
+        text-align: center;
+      }
+    }
+  }
+  
+  .weaponBtns {
+    margin-left: 5%;
+    padding: 1.5rem;
+    text-align: left;
+    @media only screen and (max-width: 600px) {
+      & {
+        margin-left: 0%;
+        padding: 1rem;
+        text-align: center;
+      }
+    }
+  }
+  
+  .weaponBtn {
+    width: 100px;
+    height: 50px;
+    display: inline;
+    margin: 0.4rem 0.8rem;
+    color: #fff;
+    font-size: 1.3rem;
+    border-radius: 25px;
+    background-color: $font-color;
+    border: none;
+    @media only screen and (max-width: 800px) {
+      & {
+        width: 90px;
+        height: 50px;
+        display: inline;
+        margin: 0.2rem 0.2rem;
+        color: #fff;
+        font-size: 1.3rem;
+        border-radius: 25px;
+      }
+    }
+  }
+  
+  .winner {
+    width: 350px;
+    height: 55px;
+    margin: 10px auto;
+    color: #FF5689;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+
+  
+  button {
+    font-family: $font-family;
+    width: 20rem;
+    height: 60px;
+    display: block;
+    margin: 10px auto;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 100px;
+    background-color: #ff83a8;
+    border: none;
+    outline: none;
+
+    &:hover {
+      cursor: pointer;
+      background: #ff83a8;
+    }
+    
+    @media only screen and (max-width: 650px) {
+      & {
+        width: 18rem;
+        height: 60px;
+        margin: 10px auto;
+        color: #fff;
+        font-size: 1.8rem;
+        border-radius: 100px;
+        background-color: #fd5285;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  
+

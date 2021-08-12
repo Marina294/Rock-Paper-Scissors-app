@@ -1,12 +1,11 @@
 import React from 'react';
-import scissors from './assets/scissors.png';
-import paper from './assets/paper.png';
-import rock from './assets/rock.png';
+import scissors from './assets/cat-scissors.png';
+import paper from './assets/cat-paper.png';
+import rock from './assets/cat-rock.png';
 
 const Player = ({ weapon }) => (
-  <>
     <div className='player'>
-      <div className='playerName'>CAT</div>
+      <div className='playerName'>Cat</div>
       <img
         className='player-image'
         src={
@@ -15,7 +14,6 @@ const Player = ({ weapon }) => (
         alt='Rock Paper Scissors'
       />
     </div>
-  </>
 );
 
 export default Player;
