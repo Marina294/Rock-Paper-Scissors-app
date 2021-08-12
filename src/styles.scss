@@ -78,7 +78,7 @@ $font-family: 'Indie Flower', cursive, sans-serif;
       & {
         width: 3rem;
         height: auto;
-        margin: 1rem 3rem;
+        margin: 1rem 7rem;
         text-align: center;
         display: center;
       }
@@ -160,8 +160,6 @@ $font-family: 'Indie Flower', cursive, sans-serif;
     font-weight: bold;
   }
   
-
-  
   button {
     font-family: $font-family;
     width: 20rem;
@@ -171,7 +169,7 @@ $font-family: 'Indie Flower', cursive, sans-serif;
     color: #fff;
     font-size: 1.8rem;
     border-radius: 100px;
-    background-color: #ff83a8;
+    background-color: #ff6291;
     border: none;
     outline: none;
 
@@ -185,10 +183,6 @@ $font-family: 'Indie Flower', cursive, sans-serif;
         width: 18rem;
         height: 60px;
         margin: 10px auto;
-        color: #fff;
-        font-size: 1.8rem;
-        border-radius: 100px;
-        background-color: #fd5285;
         border: none;
         outline: none;
       }

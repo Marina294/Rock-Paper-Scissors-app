@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Player1 from "./player1";
 import Player2 from "./player2";
 import "./styles.css";
+import { motion } from "framer-motion";
 
 const weapons = ["rock", "paper", "scissors"];
 class App extends Component {
@@ -54,12 +55,29 @@ class App extends Component {
     const { playerOne, playerTwo, winner } = this.state;
     return (
       <div className='wrap'>
-        <h1>Rock Paper Scissors with Cat</h1>
-        <div className="players">
-          <Player1 weapon={playerOne} />
-          <Player2 weapon={playerTwo} />
-        </div>
+        <motion.h1
+          initial={{ y: -80 }}
+          animate={{ y: 0 }}
+          transition={{ type: "spring", duration: 0.8 }}
+        >
+        Rock Paper Scissors with Cat
+        </motion.h1>
+        <motion.div
+          initial={{ y: 50 }}
+          animate={{ y: 0 }}
+          transition={{ type: "spring", duration: 1 }}
+        >
+          <div className="players">
+            <Player1 weapon={playerOne} />
+            <Player2 weapon={playerTwo} />
+          </div>
+        </motion.div>
         <div className="weaponBtns">
+        <motion.div
+          initial={{ y: 40 }}
+          animate={{ y: 0 }}
+          transition={{ type: "spring", duration: 1.2 }}
+        >
           <button
             className="weaponBtn"
             onClick={() => this.selectWeapon("rock")}
@@ -78,11 +96,20 @@ class App extends Component {
           >
             scissor
           </button>
+        </motion.div>
         </div>
         <div className="winner">{winner ? this.selectWinner() : null}</div>
-        <button type="button" onClick={this.startGame}>
-          Start!
-        </button>
+        <motion.div
+          initial={{ y: 50 }}
+          animate={{ y: 0 }}
+          transition={{ type: "spring", duration: 1 }}
+          whileHover={{ scale: 1.05 }} 
+          whileTap={{ scale: 0.9 }} 
+        >
+          <button type="button" onClick={this.startGame}>
+            Start!
+          </button>
+        </motion.div>
       </div>
     );
   }
