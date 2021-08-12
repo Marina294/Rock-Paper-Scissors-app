@@ -9,13 +9,13 @@ body {
   width: 100%;
   margin: 1rem auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .player {
-  /* width: 240px; */
+  width: 35%;
   height: 180px;
-  margin: 50px;
+  margin: 10px 50px;
   border-radius: 50%;
   text-align: center;
   display: inline-block;
@@ -36,11 +36,6 @@ body {
   background: #000;
 }
 
-/* .player:nth-child(2) {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-} */
-
 .winner {
   width: 350px;
   height: 55px;
@@ -53,6 +48,7 @@ body {
 .player-image {
   height: 300px;
   width: auto;
+  text-align: center;
 }
 
 button {
@@ -72,6 +68,6 @@ button:hover {
   background: rgb(151, 73, 73);
 }
 
-.icon {
-  width: 10rem;
+.playerName {
+  text-align: center;
 }

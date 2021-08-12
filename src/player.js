@@ -6,7 +6,7 @@ import rock from './assets/rock.png';
 const Player = ({ weapon }) => (
   <>
     <div className='player'>
-      <div className='playerName'>YOU</div>
+      {/* <div>YOU</div> */}
       <img
         className='player-image'
         src={
