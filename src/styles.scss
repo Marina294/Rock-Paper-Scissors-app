@@ -30,9 +30,7 @@ $font-family: 'Indie Flower', cursive, sans-serif;
     color: $font-color;
     font-size: 2.6rem;
     text-align: center;
-    margin-top: 1.4rem;
-    margin-bottom: 2rem;
-    padding: 1rem;
+    padding: 1.5rem 1rem 0.5rem 1rem;
     @media only screen and (max-width: 738px) {
       & {
         font-size: 1.5rem;
@@ -91,7 +89,7 @@ $font-family: 'Indie Flower', cursive, sans-serif;
   }
   
   .weaponBtns {
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: center;
     @media only screen and (max-width: 738px) {
       & {
