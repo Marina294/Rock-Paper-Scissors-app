@@ -28,7 +28,7 @@ $font-family: 'Indie Flower', cursive, sans-serif;
 
   h1 {
     color: $font-color;
-    font-size: 2.3rem;
+    font-size: 2.6rem;
     text-align: center;
     margin-top: 1.4rem;
     margin-bottom: 2rem;
@@ -68,7 +68,9 @@ $font-family: 'Indie Flower', cursive, sans-serif;
     display: center;
     @media only screen and (max-width: 738px) {
       & {
-        margin: 1rem 1rem;
+        width: auto;
+        height: auto;
+        margin: 1vw;
         text-align: center;
         display: center;
       }
@@ -106,7 +108,7 @@ $font-family: 'Indie Flower', cursive, sans-serif;
     display: inline;
     margin: 0.4rem 0.8rem;
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     border-radius: 25px;
     background-color: $font-color;
     border: none;
@@ -145,7 +147,7 @@ $font-family: 'Indie Flower', cursive, sans-serif;
     display: block;
     margin: 10px auto;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 2rem;
     border-radius: 100px;
     background-color: #ff6291;
     border: none;
