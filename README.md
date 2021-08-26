@@ -9,4 +9,4 @@ Responsive design.
 Demo
 https://rock-paper-meow.netlify.app/
 
-![app](/src/assets/rock.png)
+![app](/src/assets/rockpapermeow.png)
