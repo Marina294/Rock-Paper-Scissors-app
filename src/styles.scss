@@ -33,7 +33,7 @@ $font-family: 'Indie Flower', cursive, sans-serif;
     margin-top: 1.4rem;
     margin-bottom: 2rem;
     padding: 1rem;
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 738px) {
       & {
         font-size: 1.5rem;
         margin-top: 1rem;
@@ -44,16 +44,20 @@ $font-family: 'Indie Flower', cursive, sans-serif;
     }
   }
 
-.playerName {
-  font-size: 1.8rem;
-  text-align: center;
-  place-content: center;
-  @media only screen and (max-width: 800px) {
-    & {
-      font-size: 1.5rem;
+  .playerName {
+    font-size: 1.8rem;
+    text-align: center;
+    place-content: center;
+    @media only screen and (max-width: 738px) {
+      & {
+        font-size: 1.5rem;
+      }
     }
   }
-}
+
+  .players {
+    text-align: center;
+  }
 
   .player {
     width: 37%;
@@ -62,20 +66,9 @@ $font-family: 'Indie Flower', cursive, sans-serif;
     text-align: center;
     display: inline-block;
     display: center;
-    @media only screen and (max-width: 775px) {
+    @media only screen and (max-width: 738px) {
       & {
-        width: 3rem;
-        height: auto;
-        margin: 1rem 7rem;
-        text-align: center;
-        display: center;
-      }
-    }
-    @media only screen and (max-width: 600px) {
-      & {
-        width: 3rem;
-        height: auto;
-        margin: 1rem 3rem;
+        margin: 1rem 1rem;
         text-align: center;
         display: center;
       }
@@ -86,14 +79,7 @@ $font-family: 'Indie Flower', cursive, sans-serif;
     height: 15rem;
     width: auto;
     text-align: center;
-    @media only screen and (max-width: 775px) {
-      & {
-        height: 12rem;
-        width: auto;
-        text-align: center;
-      }
-    }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 738px) {
       & {
         height: 9rem;
         width: auto;
@@ -103,13 +89,12 @@ $font-family: 'Indie Flower', cursive, sans-serif;
   }
   
   .weaponBtns {
-    margin-left: 5%;
     padding: 1.5rem;
-    text-align: left;
-    @media only screen and (max-width: 600px) {
+    text-align: center;
+    @media only screen and (max-width: 738px) {
       & {
         margin-left: 0%;
-        padding: 1rem;
+        padding: 0.5rem;
         text-align: center;
       }
     }
@@ -125,7 +110,7 @@ $font-family: 'Indie Flower', cursive, sans-serif;
     border-radius: 25px;
     background-color: $font-color;
     border: none;
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 738px) {
       & {
         width: 90px;
         height: 50px;
@@ -145,7 +130,7 @@ $font-family: 'Indie Flower', cursive, sans-serif;
     color: #FF5689;
     font-size: 2.4rem;
     text-align: center;
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 738px) {
       & {
         font-size: 2rem;
       }
@@ -171,7 +156,7 @@ $font-family: 'Indie Flower', cursive, sans-serif;
       background: #ff83a8;
     }
     
-    @media only screen and (max-width: 650px) {
+    @media only screen and (max-width: 738px) {
       & {
         width: 18rem;
         height: 60px;
