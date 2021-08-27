@@ -111,11 +111,11 @@ class App extends Component {
           </button>
         </motion.div>
         <footer className="footer">
-      <div>
-        Rock Paper Meow by &nbsp; 
-        <a target="_blank" rel="noreferrer" href="https://github.com/marina294" >Marina</a>
-      </div>
-    </footer>
+          <div>
+            Rock Paper Meow by &nbsp; 
+            <a target="_blank" rel="noreferrer" href="https://github.com/marina294" >Marina</a>
+          </div>
+        </footer>
       </div>
     );
   }
