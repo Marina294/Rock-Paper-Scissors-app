@@ -113,7 +113,7 @@ class App extends Component {
         <footer className="footer">
       <div>
         Rock Paper Meow by &nbsp; 
-        <a target="_blank" rel="noreferrer" href="https://github.com/Marina294?tab=repositories" >Marina</a>
+        <a target="_blank" rel="noreferrer" href="https://github.com/marina294" >Marina</a>
       </div>
     </footer>
       </div>
