@@ -22,6 +22,21 @@ $font-family: 'Indie Flower', cursive, sans-serif;
   place-content: center;
   }
 
+  footer {
+    color: $font-color;
+    font-size: 0.5em;
+    font-weight: 200;
+    margin-top: 4em;
+    text-align: center;
+    padding: 1em;
+  }
+  a:link, a:visited, a:hover, a:active {
+    color: $font-color;
+    background-color: transparent;
+    text-decoration: underline;     
+    text-decoration-color: $font-color; 
+  }
+  
   .wrap {
     overflow: hidden;
   }

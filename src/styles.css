@@ -17,6 +17,23 @@ body {
   place-content: center;
 }
 
+footer {
+  color: #805d38;
+  font-size: 0.5em;
+  font-weight: 200;
+  margin-top: 4em;
+  text-align: center;
+  padding: 1em;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #805d38;
+  background-color: transparent;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #805d38;
+          text-decoration-color: #805d38;
+}
+
 .wrap {
   overflow: hidden;
 }
